@@ -3,9 +3,11 @@ package com.nineleaps.SpringBootDemo.events;
 import java.io.Serializable;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+@Entity
 public class GithubProject implements Serializable {
 
 	@Id
